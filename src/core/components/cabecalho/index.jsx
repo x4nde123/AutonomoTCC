@@ -54,7 +54,7 @@ export default function Cabecalho({ servisoId, children, colorbutton }) {
                 onMouseEnter={MouseEnter} 
                 onMouseLeave={MouseLeave}>
 
-                <h3 className='h3-servico'>Serviço</h3>
+                
 
                 <div className={`tabela-opcoes ${aberto ? 'aberto' : ''}`}>
                     <ul>
