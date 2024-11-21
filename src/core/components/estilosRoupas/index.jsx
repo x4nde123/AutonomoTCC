@@ -22,7 +22,9 @@ export default function EstilosRoupas(props){
                     <Cabecalho/>
                 </div>
 
-                <h1>{props.titulo}</h1>
+                <div className='container-h1'>
+                    <h1>{props.titulo}</h1>
+                </div>
 
                 <div className='borrao'>
                     <img src="/assets/images/borrao_inicio.png" alt="" />

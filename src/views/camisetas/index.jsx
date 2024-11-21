@@ -55,7 +55,7 @@ export default function Camisetas(){
 
     return (
 
-        <div className='page-camisetas'>
+        <div id='camisetas' className='page-camisetas'>
 
             <div className='camisetas-container'>
 

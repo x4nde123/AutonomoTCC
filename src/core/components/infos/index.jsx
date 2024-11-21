@@ -23,7 +23,7 @@ export default function Infos({imagem, titulo, descricao, link, caminho}){
 
                 <p>{descricao}</p>
 
-                <Link className='link-info' to={link}>
+                <Link className='link-info' to={link} onClick={() => window.scrollTo(0, 0)}>
                     <div className='ver-mais-servisos'>
                         <h2>{caminho}</h2>
                     </div>
