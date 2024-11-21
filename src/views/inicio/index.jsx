@@ -69,9 +69,9 @@ let inicio = [
 ]
 
 let obj = [
-  { id: '1', imagem: '/assets/images/img1_inicio.png'},
-  { id: '2', imagem: '/assets/images/img2_inicio.png'},
-  { id: '3', imagem: '/assets/images/img3_inicio.png'}
+  { id: 1, imagem: '/assets/images/img1_inicio.png'},
+  { id: 2, imagem: '/assets/images/img2_inicio.png'},
+  { id: 3, imagem: '/assets/images/img3_inicio.png'}
 ]
 
   return (

@@ -18,7 +18,7 @@ let devolucoesEstilos = [
 
         <div className="page-devolucoes">
 
-            <div>
+            <div className='comp-devolucoes'>
                 {devolucoesEstilos.map(item =>
                     <EstilosRoupas
                         fundoimagem={item.fundoimagem}
@@ -78,9 +78,7 @@ let devolucoesEstilos = [
                 <FaleConosco/>
             </div>
 
-            <div>
-                <Rodape/>
-            </div>
+            <Rodape/>
 
         </div>
 

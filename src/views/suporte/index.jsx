@@ -34,7 +34,7 @@ export default function Suporte(){
                         <h3>Sobre</h3>
                     </Link>
 
-                    <Link to='suporte'>
+                    <Link to='/suporte'>
                         <h3>Suporte</h3>
                     </Link>
 
@@ -64,7 +64,9 @@ export default function Suporte(){
 
                     <div className='descricao-suporte descricaoUm'>
                         <img src="/assets/images/setinha_suporte.png" alt="" />
-                        <p>Saiba como trocar ou devolver  um produto e todas as condições</p>
+                        <Link to='/devolucoes' className='link-suporte'>
+                            <p>Saiba como trocar ou devolver  um produto e todas as condições</p>
+                        </Link>
                     </div>
 
                 </div>
@@ -77,12 +79,16 @@ export default function Suporte(){
 
                     <div className='descricao-suporte descricaoUm'>
                         <img src="/assets/images/setinha_suporte.png" alt="" />
-                        <p>Meu pedido veio errado</p>
+                        <Link to='/pedidoErrado' className='link-suporte'>
+                            <p>Meu pedido veio errado</p>
+                        </Link>
                     </div>
 
                     <div className='descricao-suporte'>
                         <img src="/assets/images/setinha_suporte.png" alt="" />
-                        <p>Meu pedido consta como entrege, porém não recebi</p>
+                        <Link to='/naoRecebi' className='link-suporte'>
+                            <p>Meu pedido consta como entrege, porém não recebi</p>
+                        </Link>
                     </div>
 
                 </div>

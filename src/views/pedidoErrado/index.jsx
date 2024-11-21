@@ -33,7 +33,7 @@ let obj = [
 
         <div className="page-pedidoErrado">
 
-            <div>
+            <div className='comp-pedidoErrado'>
                 {pedidoEstilo.map(item =>
                     <EstilosRoupas
                         fundoimagem={item.fundoimagem}
@@ -82,9 +82,7 @@ let obj = [
                 <FaleConosco/>
             </div>
 
-            <div>
-                <Rodape/>
-            </div>
+            <Rodape/>
 
         </div>
 

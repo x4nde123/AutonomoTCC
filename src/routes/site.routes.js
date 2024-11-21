@@ -22,6 +22,7 @@ import Tecnologia from '../views/tecnologias';
 import Historias from '../views/historias';
 import Devolucoes from '../views/devolucoes';
 import PedidoErrado from '../views/pedidoErrado';
+import NaoRecebi from "../views/naoRecebi/index.jsx";
 
 import NotFound from "../views/notFound";
 
@@ -50,6 +51,7 @@ const SiteRoutes = () => (
     <Route path="/historias" element={<Historias />} />
     <Route path="/devolucoes" element={<Devolucoes />} />
     <Route path="/pedidoErrado" element={<PedidoErrado />} />
+    <Route path="/naoRecebi" element={<NaoRecebi />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
 )

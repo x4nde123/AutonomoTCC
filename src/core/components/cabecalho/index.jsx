@@ -82,7 +82,7 @@ export default function Cabecalho({ servisoId, children, colorbutton }) {
 
             <div className='contato'>
 
-                <Link to='/contato' className='link-contato'>
+                <Link to='' className='link-contato'>
                     <button className={`button-contato ${colorbutton}`}>Entre em Contato
                         <img src="/assets/images/contato.png" alt="" />
                     </button>

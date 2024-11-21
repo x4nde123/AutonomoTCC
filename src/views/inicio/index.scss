@@ -24,9 +24,6 @@
     img{
       width: 100%;
       height: 900px;
-      
-      margin-top: 0px;
-      margin-left: 0px;
       z-index: -1;
       opacity: 0.8;
       position: absolute;
@@ -37,7 +34,6 @@
   .container-inicio{
     display: flex;
     flex-direction: column;
-    
     width: 100%;
     height: 700px;
     margin: 0;
@@ -47,19 +43,17 @@
     }
 
     .descricacao-inicio{
-      height: 700px;
       display: flex;
+      height: 700px;
       justify-content: start;
       align-items: center;
       padding: 0px;
-      // margin-left: 100px;
       padding: 0 100px;
 
       .descricao{
         display: flex;
         flex-direction: column;
         gap: 35px;
-        // margin: 0px -80px 0px 0px;
         transition: 1.6s;
 
         h1{
@@ -124,24 +118,23 @@
 
       .imgs-inicio{
         display: flex;
-        position: relative;
+        margin-left: 500px;
+        padding: 0;
 
-        .container-img {
-          margin-top: 150px;
+        .div-slide{
+          display: flex;
+
+        .img-inicio{
+          width: 250px;
+          height: 370px;
           
-          .img1-inicio{
-            width: 250px;
-            height: 370px;
-            
-            margin-top: 105px;
-            border-radius: 69.92px;
-            margin: -12px 0px 0px -55px;
-            border: 7px solid #fff;
-          }
-          
+          margin-top: 105px;
+          border-radius: 69.92px;
+          border: 7px solid #fff;
         }
+        }
+          
 
-        
         .container-img2 {
           display: flex;
           margin-top: 150px;
@@ -443,7 +436,7 @@
     align-items: center;
 
     width: 920px;
-    height: 680px;
+    height: 670px;
     padding: 20px 20px 20px 20px;
     margin-top: 280px;
 
@@ -467,7 +460,7 @@
     .imgs-parcerias{
       display: flex;
       gap: 40px;
-      margin-top: 230px;
+      margin-top: 250px;
       
       .img-parceria1{
         display: flex;
@@ -480,6 +473,7 @@
         border-radius: 500px;
         background-color: #fff;
         box-shadow: 4px 4px 35px #000;
+        animation: float 3s ease-in-out infinite;
 
         img{
           width: 140px;
@@ -498,6 +492,7 @@
         border-radius: 500px;
         background-color: #B5B5B5;
         box-shadow: 4px 4px 35px #FFFFFF;
+        animation: float 3s ease-in-out infinite;
 
         img{
           width: 188px;
@@ -517,6 +512,7 @@
         border-radius: 500px;
         background-color: #fff;
         box-shadow: 4px 4px 35px #000;
+        animation: float 3s ease-in-out infinite;
 
         img{
           width: 158px;
@@ -617,6 +613,15 @@
   }
 }
 
+
+@keyframes float {
+  0%, 100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+}
 
 
 @media (max-width: 1218px) {

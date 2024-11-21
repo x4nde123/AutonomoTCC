@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 0px;
-  gap: 50px;
+  gap: 80px;
 
 
   a {
@@ -21,10 +21,10 @@
   .h3-header {
     display: flex;
     position: relative;
-    gap: 50px;
+    gap: 60px;
 
     h3 {
-      font: 400 17px 'Kadwa';
+      font: 400 20px 'Kadwa';
       color: #fff
     }
 
@@ -98,6 +98,25 @@
       border: none;
     }
 
+  }
+
+  .button-contato:hover{
+    box-shadow: 1px 1px 5px 2px #fff;
+  }
+
+  .button-contato:active{
+    width: 240px;
+    height: 63px;
+    margin-left: 2px;
+  }
+
+  .login-button:hover{
+    box-shadow: 1px 1px 5px 1px #000;
+  }
+
+  .login-button:active{
+    height: 63px;
+    margin-left: 0;
   }
 
 }
