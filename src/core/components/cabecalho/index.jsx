@@ -82,7 +82,7 @@ export default function Cabecalho({ servisoId, children, colorbutton }) {
 
             <div className='contato'>
 
-                <Link to='' className='link-contato'>
+                <Link to='https://wa.me/5511984430465?text=oi.gostaria de falar com nosso bot' className='link-contato'>
                     <button className={`button-contato ${colorbutton}`}>Entre em Contato
                         <img src="/assets/images/contato.png" alt="" />
                     </button>

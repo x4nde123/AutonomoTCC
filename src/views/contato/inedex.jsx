@@ -9,7 +9,7 @@ export default function Contato(){
 
     return (
 
-        <div className='contato'>
+        <div className='page-contato'>
 
             <div className='contato-container'>
 
@@ -50,8 +50,6 @@ export default function Contato(){
                         <img src="/assets/images/logo-costura.png" alt="" />
                         <h1>SILK STICH</h1>
                     </Link>
-
-                    <div className='barra-meio'></div>
 
                     <div className='iniciarConversa'>
 

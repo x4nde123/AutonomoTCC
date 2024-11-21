@@ -1,5 +1,6 @@
 .page-perguntas{
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -10,12 +11,12 @@
     .borrao-silkstich{
         display: flex;
         justify-content: center;
-        width: 1423px;
+        width: 100%;
         position: relative;
   
         img{
           position: absolute;
-          width: 1423px;
+          width: 100%;
           z-index: -1;   
         }
     }
@@ -23,7 +24,11 @@
     .header-perguntas{
         display: flex;
         justify-content: center;
+        align-items: center;
         margin: 0;
+        gap: 80px;
+        height: 120px;
+        margin-top: 30px;
 
         a{
             text-decoration: none;
@@ -33,20 +38,15 @@
             
             
             .logo2{
-            width: 266px;
-            height: 266px;
-            
-            margin-top: -25px;
-            margin-left: 0px;
-            
+            width: 246px;
+            margin-top: 40px;    
+            margin-right: -35px;
             }
         
         }
         
         .h3-header{
             display: flex;
-            margin-top: 46px;
-            margin-left: 110px;
             gap: 60px;
             
             h3{
@@ -63,12 +63,8 @@
             border-radius: 60px;
             background-color: #000;
         
-            width: 272px;
-            height: 76.86px;
-        
-            margin-top: 45px;
-            margin-left: 120px;
-        
+            width: 252px;
+            height: 72px;
         
             .link-contato{
             display: flex;
@@ -93,7 +89,8 @@
 
     .perguntas-frequentes{
         text-align: center;
-        font: 400 81px 'Anton'
+        margin-top: 100px;;
+        font: 400 68px 'Anton'
     }
 
     .descricoes-perguntas{
@@ -101,7 +98,7 @@
         flex-direction: column;
         text-align: start;
 
-        margin-left: -180px;
+        margin-left: -360px;
 
         h1{
             margin: 0;

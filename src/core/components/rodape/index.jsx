@@ -33,19 +33,19 @@ export default function Rodape(){
                 <h1>Ajuda</h1>
               </Link>
 
-              <Link className='Link-rodape' to='/'>
+              <Link onClick={() => {window.scrollTo(0,0)}} className='Link-rodape' to='/'>
                 <h2>Contato</h2>
               </Link>
 
-              <Link className='Link-rodape' to='/sobreNos'>
+              <Link onClick={() => {window.scrollTo(0,0)}} className='Link-rodape' to='/sobreNos'>
                 <h2>Sobre Nós</h2>
               </Link>
 
-              <Link className='Link-rodape' to='/'>
+              <Link onClick={() => {window.scrollTo(0,0)}} className='Link-rodape' to='/perguntasFrequentes'>
                 <h2>Perguntas Frequentes</h2>
               </Link>
 
-              <Link className='Link-rodape' to='/'>
+              <Link onClick={() => {window.scrollTo(0,0)}} className='Link-rodape' to='/suporte'>
                 <h2>Suporte</h2>
               </Link>
 

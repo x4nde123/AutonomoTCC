@@ -233,7 +233,7 @@ let obj = [
 
           <div className='container-instagram'>
 
-            <img src="/assets/images/logo_instagram.jpg" alt="" />
+            <img src="/assets/images/logo_instagram.png" alt="" />
 
             <h3><b>Portfólio Visual:</b> Veja nosso trabalho através de fotos e vídeos inspiradores.</h3>
 
@@ -253,7 +253,7 @@ let obj = [
 
           <div className="container-whats">
 
-            <img src="/assets/images/logo_whatsapp.jpg" alt="" />
+            <img src="/assets/images/logo_whatsapp.png" alt="" />
 
             <h3><b>Suporte Rápido:</b> Resolva problemas e tire dúvidas em tempo real.</h3>
 

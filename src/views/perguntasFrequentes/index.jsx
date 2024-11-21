@@ -24,19 +24,15 @@ export default function PerguntasFrequentes () {
 
                 <div className='h3-header'>
 
-                    <Link to=''>
-                        <h3>Serviço</h3>
-                    </Link>
-
-                    <Link>
+                    <Link to='/blog'>
                         <h3>Blog</h3>
                     </Link>
 
-                    <Link>
+                    <Link to='/sobre'>
                         <h3>Sobre</h3>
                     </Link>
 
-                    <Link>
+                    <Link to='/suporte'>
                         <h3>Suporte</h3>
                     </Link>
 
@@ -88,9 +84,7 @@ export default function PerguntasFrequentes () {
                 <FaleConosco/>
             </div>
 
-            <div className='compss'>
-                <Rodape/>
-            </div>
+            <Rodape/>
 
         </div>
 
