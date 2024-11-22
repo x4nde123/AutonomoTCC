@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "axios": "^1.7.7",
+    "dayjs": "^1.11.13",
     "framer-motion": "^11.11.10",
     "local-storage": "^2.0.0",
     "localstorage": "^1.0.1",

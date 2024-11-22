@@ -6,6 +6,8 @@ import { api } from "../../services/axios-setup";
 import { toast } from "react-toastify";
 import Storage from 'local-storage'
 import { useNavigate } from "react-router-dom";
+import dayjs from "dayjs";
+
 
 const LoginView = () => {
   const [email, setEmail] = useState("");
@@ -24,7 +26,10 @@ const LoginView = () => {
       toast.error(resposta.data.erro)
     } else {
       toast.success(`Seja bem vindo, ${resposta.data.nome}!`)
-      Storage('usuario', resposta.data)
+      Storage('usuario', {
+        ...resposta.data,
+        logado_em: dayjs().toISOString()
+      })
       navigate('/usuarios/lista')
     }
 

@@ -9,8 +9,8 @@ const Sidebar = () => {
 
   const paginas = [
     { id: 1, nome: 'Inicio', icon: '/icons/home.svg', path: '/usuarios/lista' },
-    { id: 2, nome: 'Vendas', icon: '/icons/money.svg', path: '/usuarios/lista' },
-    { id: 3, nome: 'Clientes', icon: '/icons/user.svg', path: '/usuarios/lista' },
+    { id: 2, nome: 'Vendas', icon: '/icons/money.svg', path: '/vendas/lista' },
+    { id: 3, nome: 'Clientes', icon: '/icons/user.svg', path: '/clientes/lista' },
     { id: 4, nome: 'Categorias', icon: '/icons/delivery.svg', path: '/categorias/lista' },
     { id: 5, nome: 'Produtos', icon: '/icons/delivery.svg', path: '/produtos/lista' },
     { id: 6, nome: 'Usuários', icon: '/icons/user.svg', path: '/usuarios/lista'},
