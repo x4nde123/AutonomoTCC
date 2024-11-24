@@ -37,7 +37,7 @@ let historiasEstilos = [
                     <div className="descricoes">
 
                         <h1>Coco Chanel</h1>
-                        <p>Coco Chanel, nascida Gabrielle Bonheur Chanel, foi uma estilista francesa que revolucionou a moda ao introduzir a "simplicidade luxuosa". Ela mudou a forma como as mulheres se vestiam, criando o icônico "vestidinho preto". Chanel se tornou uma das figuras mais influentes da moda no século 20, precursora das influenciadoras atuais.</p>
+                        <p>Coco Chanel, nascida Gabrielle Bonheur Chanel, foi uma estilista francesa que revolucionou a moda ao introduzir a "simplicidade luxuosa".</p>
 
                     </div>
 
@@ -52,7 +52,7 @@ let historiasEstilos = [
                     <div className="descricoes">
                         
                         <h1>Valentino Garavani</h1>
-                        <p>Valentino, nascido na Itália, iniciou sua carreira em Paris e lançou sua marca em Roma, sendo conhecido como um "maestro" da moda. Ele vestiu ícones como Jacqueline Kennedy e é famoso pelo Valentino Red, uma tonalidade de vermelho que se tornou sua assinatura.</p>
+                        <p>Valentino, nascido na Itália, iniciou sua carreira em Paris e lançou sua marca em Roma, sendo conhecido como um "maestro" da moda.</p>
 
                     </div>
 
@@ -67,7 +67,7 @@ let historiasEstilos = [
                     <div className="descricoes">
 
                         <h1>Giorgio Armani</h1>
-                        <p>Giorgio Armani, estilista italiano de sucesso, revolucionou o tailoring ao criar blazers femininos desconstruídos que combinavam poder e sensualidade. Ele se adaptou às mudanças da moda, lançando blazers com formas retas e ombros menos acentuados, que se tornaram essenciais no guarda-roupa feminino.</p>
+                        <p>Giorgio Armani, estilista italiano de sucesso, revolucionou o tailoring ao criar blazers femininos desconstruídos que combinavam poder e sensualidade.</p>
 
                     </div>
 

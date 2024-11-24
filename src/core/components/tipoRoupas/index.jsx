@@ -22,21 +22,21 @@ export default function TipoRoupas(){
 
             <div className='tipo-roupa'>
                 <img className='ellipse1' src="/assets/images/Ellipse1.png"/>
-              <Link to='/camisetas'>
+              <Link onClick={() => {window.scrollTo(0,0)}} to='/camisetas'>
                 <h2 className='tipo1'>Camisetas</h2>
               </Link>
             </div>
 
             <div className='tipo-roupa'>
                 <img className='ellipse2' src="/assets/images/Ellipse2.png"/>
-              <Link to='/moletons'>
+              <Link onClick={() => {window.scrollTo(0,0)}} to='/moletons'>
                 <h2 className='tipo2'>Moletons</h2>
               </Link>
             </div>
 
             <div className='tipo-roupa'>
                 <img className='ellipse3' src="/assets/images/Ellipse3.png"/>
-              <Link to='/calcas'>
+              <Link onClick={() => {window.scrollTo(0,0)}} to='/calcas'>
                 <h2 className='tipo3'>Calças</h2>
               </Link>
             </div>

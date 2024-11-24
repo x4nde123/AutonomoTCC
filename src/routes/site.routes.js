@@ -52,7 +52,6 @@ const SiteRoutes = () => (
     <Route path="/devolucoes" element={<Devolucoes />} />
     <Route path="/pedidoErrado" element={<PedidoErrado />} />
     <Route path="/naoRecebi" element={<NaoRecebi />} />
-    <Route path="*" element={<NotFound />} />
   </Routes>
 )
 

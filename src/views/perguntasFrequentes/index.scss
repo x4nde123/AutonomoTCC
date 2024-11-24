@@ -82,7 +82,49 @@
             }
             
             }
+        }
+
+        .contato{
+            display: flex;
+            justify-content: center;
+            align-items: center;
         
+            border-radius: 60px;
+            border: none;
+            background-color: #000;
+        
+            width: 252px;
+            height: 72px;
+        
+            .link-contato{
+                display: flex;
+                gap: 8px;
+        
+                h2{
+                font: 400 15px 'Kadwa';
+                color: #fff;
+                text-align: center;
+                margin: 0;
+                }
+                
+                img{
+                width: 25px;
+                height: 25px;
+                }
+                
+            }
+        
+        }
+
+        .contato:hover{
+        color: #000;
+        border: 2px solid #fff;
+
+        }
+        .contato:active{
+        width: 250px;
+        height: 70px;
+        margin-left: 2px;
         }
         
     }
@@ -98,7 +140,7 @@
         flex-direction: column;
         text-align: start;
 
-        margin-left: -360px;
+        margin-left: -180px;
 
         h1{
             margin: 0;

@@ -324,10 +324,6 @@ let obj = [
 
       </div>
 
-      <button className='ver-mais-depoimentos'>
-        <Link to='/depoimentos' className='link-depoimentos'>Ver mais</Link>
-      </button>
-
       <div className='rodape-inicio'>
         <Rodape/>
       </div>
