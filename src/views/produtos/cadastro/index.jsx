@@ -8,7 +8,7 @@ import { toast } from "react-toastify"
 
 const initialData = {
   nome: '',
-  id_categoria: null,
+  id_categoria: 1,
   valor: '',
   descricao: '',
   image: ''
